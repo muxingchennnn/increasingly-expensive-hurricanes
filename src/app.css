@@ -4,6 +4,14 @@
 	--font-sans: "Geist Variable", sans-serif;
 	--font-serif: "Source Serif 4 Variable", serif;
 
+	/* --breakpoint-*: initial reset all of the default breakpoints */
+	--breakpoint-*: initial;
+	--breakpoint-xs: 480px;
+	--breakpoint-sm: 640px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 1024px;
+	--breakpoint-xl: 1440px;
+
 	--color-gray-100: #f5f5f5;
 	--color-gray-200: #e6e6e6;
 	--color-gray-300: #d9d9d9;
@@ -26,7 +34,6 @@
 		font-family: var(--font-sans);
 		font-size: 1rem;
 		font-optical-sizing: auto;
-		overflow: hidden;	
 	}
 }
 
