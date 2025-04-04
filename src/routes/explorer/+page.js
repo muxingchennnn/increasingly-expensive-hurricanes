@@ -62,4 +62,4 @@ function parseDate(date, time) {
 	);
 }
 
-// export const ssr = false;
+export const ssr = false;
