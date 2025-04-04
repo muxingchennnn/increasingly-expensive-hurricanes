@@ -94,7 +94,7 @@
 	});
 </script>
 
-<ParamBar {...mapParams} {handleReset} />
+<!-- <ParamBar {...mapParams} {handleReset} /> -->
 <div class="relative h-[100svh] w-full overflow-hidden" bind:this={mapContainer}></div>
 
 <style>
