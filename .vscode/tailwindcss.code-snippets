@@ -1,0 +1,14 @@
+{
+	"/* prettier-ignore */": {
+		"prefix": "p-i",
+		"body": "/* prettier-ignore */",
+		"description": "Comment for ignoring Prettier formatting",
+		"scope": "svelte, css"
+	},
+	"Reference Tailwind in <style> block": {
+		"prefix": "@ref",
+		"body": "@reference '../../app.css'",
+		"description": "Inserts a reference to a Tailwind CSS file in a Svelte <style> block",
+		"scope": "svelte, css"
+	}
+}
